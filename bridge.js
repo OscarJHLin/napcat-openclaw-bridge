@@ -18,7 +18,7 @@ const OPENCLAW_TOKEN = process.env.OPENCLAW_TOKEN || 'YOUR_OPENCLAW_TOKEN';
 
 const OPENCLAW_API = `http://${OPENCLAW_HOST}:${OPENCLAW_PORT}`;
 const IMG_DIR = process.env.IMG_DIR || './images/';
-const FILE_DIR = process.env.FILE_DIR || './files/';
+const FILE_DIR = (process.env.FILE_DIR || './files').replace(/\/$/, '') + '/';
 
 // ============ 状态 ============
 let napcatWs = null;
