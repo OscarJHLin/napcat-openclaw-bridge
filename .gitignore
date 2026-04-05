@@ -1,0 +1,19 @@
+# 日志
+bridge.log
+
+# PID 文件
+bridge.pid
+
+# 运行时目录
+images/
+files/
+
+# 配置文件（包含敏感 token）
+config.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

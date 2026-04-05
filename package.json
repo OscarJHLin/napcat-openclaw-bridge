@@ -1,0 +1,13 @@
+{
+  "name": "napcat-openclaw-bridge",
+  "version": "1.0.0",
+  "description": "NapCatQQ to OpenClaw Bridge",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js",
+    "daemon": "bash run-daemon.sh"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
